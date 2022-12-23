@@ -1,0 +1,132 @@
+:root{
+   --bg-black-50:#F9F3F3;
+   --bg-black-100:#DDDDDD;
+   --bg-black-200:#F7D9D9;
+   --text-black:#3C4048;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::after,::before{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+span{
+    font-size: 2rem;
+    color: var(--skin-color);
+}
+
+.content section{
+    background: var(--bg-black-200);
+    display: block;
+    min-height: 100vh;
+    z-index: 0;
+    opacity: 1;
+}
+.content{
+    padding-left: 270px;
+}
+/* ====aside==== */
+
+.aside{
+    width: 270px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    border-right: 1px solid var(--bg-black-100);
+    align-items: center;
+    left: 0;
+    top: 0;
+    background-color: var(--bg-black-50);
+    z-index: 10;
+    height: 100%; 
+    .logo{
+        position: absolute;
+        top: 50px;
+        font-size: 30px;
+        text-transform: capitalize;
+        a{
+            color:var(--text-black);
+            font-weight: 700;
+            padding: 15px 20px;
+            font-size: 30px;
+            letter-spacing:2px;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 20px;
+                height: 20px;
+                border-bottom:5px solid var(--skin-color) ;
+                border-left:5px solid var(--skin-color) ;
+
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 20px;
+                height: 20px;
+                border-top:5px solid var(--skin-color) ;
+                border-right:5px solid var(--skin-color) ;
+
+            }
+        }
+
+    }
+    .toggler{
+        a{
+            border-radius: 5px;
+            background-color:var(--bg-black-50);
+            color: var(--skin-color);
+            border: 1px solid var(--skin-color);
+            padding: 5px 20px;
+            font-size: 20px;
+            position: fixed;
+            display: none;
+            left: 290px;
+            top: 10px;
+            
+        }
+    }
+    .nav{
+        margin-top: 100px;
+        li{
+
+            margin-bottom: 20px;
+            display: block;
+        }
+        a{
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            color:var(--text-black);
+            padding: 5px 15px;
+            border-bottom: 1px solid var(--bg-black-200);
+            &.active{
+                color: var(--skin-color);
+             }
+            i{
+                margin-right: 15px;
+            }
+            
+        }
+    }
+}
+
+//-------------------------home--------------------
