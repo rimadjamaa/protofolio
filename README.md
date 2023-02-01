@@ -1,6 +1,6 @@
 # protofolio
-
-# Objectif du Projet : 
+version 0.0.2 will contain the backend and the web site will be responsive
+## Objectif du Projet : 
 Un site web qui represente le travail et aussi comme un cv .
 Contenus Du site :
 L’ensemble des pages du site son accessible à partir du Menu
@@ -17,7 +17,7 @@ Menu :
 
 
     
-# Contenus des différents pages du Menu :
+## Contenus des différents pages du Menu :
 -	ACCUEIL :
 Contient une image et un logo et une petites discription
 
@@ -35,7 +35,7 @@ Un formulaire de contact qu’il contient le Nom, l’email, le numéro de tél�
 
 
 
-# Description fonctionnelle des besoins : nous allons détaillées les fonctionnalités pour chaque acteur de système :
+## Description fonctionnelle des besoins : nous allons détaillées les fonctionnalités pour chaque acteur de système :
 1-	Visiteur du site : 
 -	Consulter la page principale.
 -	Consulter la page à-propos.
