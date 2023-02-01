@@ -1,15 +1,20 @@
 # protofolio
 
 # Objectif du Projet : 
-Un site web d’aide à l’évaluation et la décision médicale concernant les malades qui souffre des douleurs Chroniques ou Aigues.
+Un site web qui represente le travail et aussi comme un cv .
 Contenus Du site :
 L’ensemble des pages du site son accessible à partir du Menu
 Menu : 
 •	ACCUEIL
+
 •	A PROPOS
+
 •	SERVICES
+
 •	PROTOFOLIOS
+
 •	CONTACT
+
 
     
 # Contenus des différents pages du Menu :
