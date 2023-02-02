@@ -1,5 +1,5 @@
 # protofolio
-version 0.0.2 will contain the backend and the web site will be responsive
+version 0.0.2 va contenir le backend et le site va etre responsive 
 ## Objectif du Projet : 
 Un site web qui represente le travail et aussi comme un cv .
 Contenus Du site :
